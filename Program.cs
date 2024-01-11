@@ -1,6 +1,7 @@
 using LazarB_MiniChallengeFiveToSevenEndpoint.Services.MadL;
 using LazarB_MiniChallengeFiveToSevenEndpoint.Services.MadL.OddOrEven;
 using LazarB_MiniChallengeFiveToSevenEndpoint.Services.MadL.ReverseAlph;
+using LazarB_MiniChallengeFiveToSevenEndpoint.Services.MadL.ReverseNum;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IMadLibServices, MadLibService>();
 builder.Services.AddScoped<IOddOrEvenServices, OddOrEvenService>();
 builder.Services.AddScoped<IReverseAlphServices, ReverseAlphService>();
+builder.Services.AddScoped<IReverseNumServices, ReverseNumService>();
 
 var app = builder.Build();
 
