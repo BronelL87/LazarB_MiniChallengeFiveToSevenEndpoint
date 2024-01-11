@@ -18,9 +18,11 @@ namespace LazarB_MiniChallengeFiveToSevenEndpoint.Services.MadL.ReverseNum;
                 reverseN = reverseN*10 + numberOne%10;
                 numberOne /= 10;
               }
-              
+              return $"The reverse of {userNumber} is {reverseN}";
+            }else {
+                return "That is not a number";
             }
-            return $"The reverse of {userNumber} is {reverseN}";
+            
             
             
         }
