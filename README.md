@@ -1,10 +1,10 @@
-// Your name 
+Bronel Lazar
 
- // Date Revised: This is the last day you saved. 
+ 1/10/2024
 
- // Exercise or Lab name 
+MiniChallengeFiveToSeven - Endpoints
 
-Created 4 endpoints for 
+Created 4 endpoints for MadLib, OddOrEven, ReverseIt (Alphanumeric), and ReverseIt (Numbers Only) in a c# api
 
 
 
